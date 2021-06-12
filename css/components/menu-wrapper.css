@@ -1,0 +1,7 @@
+.menu-wrapper {
+    display: inherit;
+}
+
+.menu-wrapper .menu:not(:last-child) {
+    margin-right: 35px;
+}
