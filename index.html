@@ -6,29 +6,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Facebook Fluent</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/global.css">
-    <link rel="stylesheet" href="css/components/main-header">
+    <link rel="stylesheet" href="css/components/main-header.css">
+    <link rel="stylesheet" href="css/components/search-box.css">
 </head>
 
 <body>
     <header class="main-header">
-        <img src="assets/icons/facebook-logo.svg" alt="Facebook Logo">
+        <img src="assets/icons/header/facebook-logo.svg" alt="Facebook Logo">
+
+        <div class="search-box">
+            <label for="search"><img src="assets/icons/header/search.svg" alt="Search Icon"></label>
+            <input type="search" class="search" id="search" placeholder="Search in Facebook">
+        </div>
+
         <nav class="navigation">
             <ul class="nav-icons">
-                <li>
+                <li class="links">
                     <a href="#"><img src="assets/icons/header/nav-icons/home.svg" alt="Home"></a>
                 </li>
-                <li>
+                <li class="links">
                     <a href="#"><img src="assets/icons/header/nav-icons//marketplace.svg" alt="MarketPlace"></a>
                 </li>
-                <li>
+                <li class="links">
                     <a href="#"><img src="assets/icons/header/nav-icons//watch.svg" alt="Watch"></a>
                 </li>
-                <li>
+                <li class="links">
                     <a href="#"><img src="assets/icons/header/nav-icons//groups.svg" alt="Groups"></a>
                 </li>
-                <li>
+                <li class="links">
                     <a href="#"><img src="assets/icons/header/nav-icons//gaming.svg" alt="Gaming"></a>
                 </li>
             </ul>

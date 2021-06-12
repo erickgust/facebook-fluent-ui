@@ -1,0 +1,35 @@
+.search-box {
+    display: flex;
+    height: 50px;
+    background-color: #8686864A;
+    margin-left: 25px;
+    border-radius: 10px;
+    align-items: center;
+    padding-right: 22px;
+    padding-left: 15px;
+}
+
+.search-box img {
+    float: left;
+    margin-right: 5px;
+}
+
+.search-box .search {
+    width: 133px;
+    height: 25px;
+    background: none;
+    font: 500 0.8125rem "Poppins", sans-serif;
+    outline: none;
+}
+
+.search-box .search::placeholder {
+    color: var(--gray);
+    opacity: 1;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  -webkit-appearance:none;
+}
