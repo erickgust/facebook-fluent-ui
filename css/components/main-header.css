@@ -1,0 +1,24 @@
+.main-header {
+    display: flex;
+    padding: 10px;
+    height: 70px;
+    border: 1px solid #000;
+}
+
+.main-header .navigation {
+    width: 100%;
+    display: inherit;
+    justify-content: center;
+}
+
+.main-header .nav-icons {
+    width: 560px;
+    display: inherit;
+    justify-content: space-between;
+}
+
+.main-header .links {
+    list-style-type: none;
+    display: inherit;
+    align-items: center;
+}
