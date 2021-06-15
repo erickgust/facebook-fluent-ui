@@ -1,22 +1,14 @@
 .sidebar-left {
     position: relative;
-    width: 325px;
-    height: calc(100% - 70px);
-    padding-left: 30px;
-    padding-top: 50px;
-    padding-bottom: 20px;
-}
-
-.sidebar-left .sidebar-wrapper::after {
-    position: absolute;
-    content: '';
-    width: calc(100% - 60px);
-    height: 1px;
-    background-color: var(--gray);
+    width: 20.3125rem;
+    height: calc(100vh - 4.375rem);
+    padding-left: 1.875rem;
+    padding-top: 3.125rem;
+    padding-bottom: 1.25rem;
 }
 
 .sidebar-left .items {
-    margin-bottom: 35px;
+    margin-bottom: 2.1875rem;
 }
 
 .sidebar-left a {
@@ -25,36 +17,36 @@
 }
 
 .sidebar-left .text {
-    font: 600 18px "Poppins", sans-serif;
+    font: 600 1.125rem "Poppins", sans-serif;
     color: var(--black);
 }
 
 .sidebar-left img {
-    margin-right: 20px;
+    margin-right: 1.25rem;
 }
 
 .sidebar-left .items.-user img {
-    margin-right: 15px;
+    margin-right: .9375rem;
 }
 
 .sidebar-left .items.-second img {
-    margin-right: 16px;
+    margin-right: 1rem;
 }
 
 .sidebar-left .items.-saved img {
-    margin-right: 26px;
+    margin-right: 1.625rem;
 }
 
 .sidebar-left .items:last-child img {
     position: relative;
     left: -1px;
-    height: 35px;
+    height: 2.1875rem;
 }
 
 .sidebar-left .copyright {
-    padding-top: 35px;
+    padding-top: 2.1875rem;
     margin-bottom: auto;
-    width: 190px;
-    font: 400 13px "Poppins", sans-serif;
+    width: 11.875rem;
+    font: 400 .8125rem "Poppins", sans-serif;
     color: var(--gray);
 }

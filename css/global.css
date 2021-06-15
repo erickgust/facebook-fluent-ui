@@ -10,3 +10,9 @@
 
     --green: #30A834;
 }
+
+@media screen and (max-width: 1366px) {
+    html {
+      font-size: 81.25%; 
+    }
+}
