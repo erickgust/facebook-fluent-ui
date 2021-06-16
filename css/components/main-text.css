@@ -1,0 +1,8 @@
+.main-text {
+    font: 600 1.125rem "Poppins", sans-serif;
+    color: var(--black);
+}
+
+.main-text.-contact {
+    margin-bottom: 1.25rem;
+}
