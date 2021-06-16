@@ -1,5 +1,5 @@
 :root {
-    --white: #FFF;
+    --white: #F9F9F9;
 
     --blue: #3265CC;
     --dark-blue: #4267B2;
@@ -9,10 +9,12 @@
     --black: #000;
 
     --green: #30A834;
+
+    --red: #F63B3B;
 }
 
 @media screen and (max-width: 1366px) {
     html {
-      font-size: 81.25%; 
+      font-size: 87.5%; 
     }
 }
