@@ -1,0 +1,69 @@
+.sidebar-right {
+    margin-left: auto;
+    position: relative;
+    width: 20.25rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: 1.875rem;
+}
+
+.sidebar-right .contact {
+    display: flex;
+    align-items: center;
+    background-color: var(--white);
+    border-radius: 10px;
+}
+
+.sidebar-right .contact:not(:last-of-type) {
+    margin-bottom: 1.25rem;
+}
+
+.sidebar-right .info {
+    margin-left: 1rem;
+    display: block;
+}
+
+.sidebar-right .contact--name {
+    font: 500 .875rem "Poppins", sans-serif;
+    color: var(--black);
+}
+
+.sidebar-right .contact--status {
+    font: 500 .75rem "Poppins", sans-serif;
+    color: var(--green);
+}
+
+.sidebar-right .contact--status::before {
+    display: inline-block;
+    content: '';
+    width: .625rem;
+    height: .625rem;
+    background-color: var(--green);
+    border-radius: 50%;
+    margin-right: .3125rem;
+}
+
+.sidebar-right .contact--status.-off {
+    color: var(--red);
+}
+
+.sidebar-right .contact--status.-off::before {
+    background-color: var(--red);
+}
+
+.sidebar-right .buttons {
+    margin-left: auto;
+}
+
+.sidebar-right .ctt-view {
+    padding: 0 1rem;
+}
+
+.sidebar-right .contacts-wrapper::after {
+    margin-top: 1.875rem;
+    position: absolute;
+    content: '';
+    width: calc(100% - 3.75rem);
+    height: 1px;
+    background-color: var(--gray);
+}

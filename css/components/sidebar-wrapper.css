@@ -1,7 +1,0 @@
-.sidebar-wrapper::after {
-    position: absolute;
-    content: '';
-    width: calc(100% - 3.75rem);
-    height: 1px;
-    background-color: var(--gray);
-}
