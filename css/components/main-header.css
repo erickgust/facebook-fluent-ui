@@ -1,7 +1,9 @@
 .main-header {
+    position: relative;
     display: flex;
     padding: 0.625rem 1.875rem;
     height: 4.375rem;
+    background-color: var(--white);
     box-shadow: 0px .3rem .9rem rgba(0, 0, 0, 0.18), 0px 1.6rem 3.6rem rgba(0, 0, 0, 0.22);
 }
 
