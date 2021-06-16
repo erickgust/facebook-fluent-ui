@@ -1,6 +1,7 @@
 .sidebar-left {
     position: relative;
-    width: 20.25rem;
+    width: 100%;
+    max-width: 20.25rem;
     padding-left: 1.875rem;
     padding-top: 1.875rem;
 }
@@ -46,7 +47,8 @@
 
 .sidebar-left .copyright {
     padding-top: 1.875rem;
-    width: 11.875rem;
+    width: 100%;
+    max-width: 11.875rem;
     font: 400 .8125rem "Poppins", sans-serif;
     color: var(--gray);
 }
