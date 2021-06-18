@@ -34,7 +34,7 @@
 .sidebar-left .items:last-child img {
     position: relative;
     left: -1px;
-    height: 2.1875rem;
+    height: 35px;
 }
 
 .sidebar-left .sidebar-wrapper::after {
