@@ -1,0 +1,8 @@
+.published-post {
+    position: relative;
+    background-color: var(--white);
+    width: 100%;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4.8px 14.4px rgba(0, 0, 0, 0.18), 0px 25.6px 57.6px rgba(0, 0, 0, 0.22);
+}
