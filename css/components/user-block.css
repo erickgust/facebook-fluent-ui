@@ -1,0 +1,28 @@
+.user-block {
+    display: flex;
+    align-items: center;
+}
+
+.user-block .profilepic {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.user-block > .info {
+    margin-left: 1.25rem;
+}
+
+.user-block .timepriv {
+    display: inline-flex;
+    align-items: center;
+}
+
+.user-block .time {
+    font: 400 0.875rem "Poppins", sans-serif;
+    margin-right: 5px;
+}
+
+.user-block .options {
+    margin-left: auto;
+}
