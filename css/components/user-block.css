@@ -1,6 +1,7 @@
 .user-block {
     display: flex;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .user-block .profilepic {
@@ -11,16 +12,20 @@
 
 .user-block > .info {
     margin-left: 1.25rem;
-}
-
-.user-block .timepriv {
-    display: inline-flex;
-    align-items: center;
+    position: relative;
 }
 
 .user-block .time {
     font: 400 0.875rem "Poppins", sans-serif;
-    margin-right: 5px;
+    
+}
+
+.user-block .time::after {
+    content: url(../../assets/icons/public.svg);
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    transform: translate(50%, 15%);
 }
 
 .user-block .options {
