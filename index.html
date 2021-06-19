@@ -21,6 +21,9 @@
     <link rel="stylesheet" href="css/components/home-page.css">
     <link rel="stylesheet" href="css/components/published-post.css">
     <link rel="stylesheet" href="css/components/user-block.css">
+    <link rel="stylesheet" href="css/components/user-message.css">
+    <link rel="stylesheet" href="css/components/user-actions.css">
+    <link rel="stylesheet" href="css/components/btn-action.css">
 </head>
 
 <body>
@@ -129,17 +132,46 @@
         <main class="home-page">
             <section class="news-feed">
                 <article class="published-post">
-                    <div class="user-block">
+                    <section class="user-block">
                         <img src="assets/icons/profilepic.svg" alt="Profile Picture" class="profilepic">
                         <div class="info">
-                            <h1 class="main-text">Jasmine Rose</h1>
-                            <div class="timepriv">
-                                <h2 class="time">40m ago</h2>
-                                <img src="assets/icons/public.svg" alt="Public Icon" class="privacy">
-                            </div>
+                            <h1 class="name main-text">Jasmine Rose</h1>
+                            <h2 class="time">40m ago</h2>
                         </div>
                         <img src="assets/icons/options.svg" alt="Options button" class="options">
-                    </div>
+                    </section>
+
+                    <section class="user-message">
+                        <p class="msg">Priscilla and I are excited to share that the Chan Zuckerberg Initiative is
+                            making major new investments to support criminal justice reform and immigration reform at a
+                            critical moment for change nationwide.
+                        <p>
+                        <p class="msg">First, we're proud to support the launch of a new and independent criminal
+                            justice reform organization -- the Justice Accelerator Fund justiceacceleratorfund.org) --
+                            with an initial investment of $350 million over the next five years to support a broader
+                            community of lea… <span class="more main-text">See More</span>
+                        </p>
+                    </section>
+
+                    <section class="user-actions">
+
+                        <button class="btn-action">
+                            <img src="assets/icons/like-btn.svg" alt="Like Icon">
+                            <span class="txt">Like</span>
+                        </button>
+
+                        <button class="btn-action">
+                            <img src="assets/icons/comment-btn.svg" alt="Comment Icon">
+                            <span class="txt">Comment</span>
+                        </button>
+
+                        <button class="btn-action">
+                            <img src="assets/icons/share-btn.svg" alt="Share Icon">
+                            <span class="txt">Share</span>
+                        </button>
+
+                    </section>
+
                 </article>
             </section>
         </main>
