@@ -1,0 +1,17 @@
+.btn-action {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background: none;
+    transition: opacity 150ms;
+}
+
+.btn-action .txt {
+    font: 400 18px "Poppins", sans-serif;
+    color: var(--gray);
+    padding-left: 15px;
+}
+
+.btn-action:hover {
+    opacity: .75;
+}
