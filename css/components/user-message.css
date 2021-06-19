@@ -1,0 +1,12 @@
+.user-message .msg {
+    font: 400 18px "Poppins", sans-serif;
+    margin-bottom: 25px;
+}
+
+.user-message::after {
+    content: '';
+    background-color: var(--gray);
+    height: 1px;
+    position: absolute;
+    width: calc(100% - 40px);
+}
