@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="css/components/user-message.css">
     <link rel="stylesheet" href="css/components/user-actions.css">
     <link rel="stylesheet" href="css/components/btn-action.css">
+    <link rel="stylesheet" href="css/components/input-wrapper.css">
 </head>
 
 <body>
@@ -131,17 +132,32 @@
 
         <main class="home-page">
             <section class="news-feed">
+
+                <article class="new-post published-post">
+                    <div class="input-wrapper">
+                        <div class="useravatar">
+                            <img src="assets/icons/sidebar-left/user.svg" alt="User Icon">
+                        </div>
+                        <div class="newcomment">
+                            <label for="comment"></label>
+                            <textarea class="textarea" name="comment" id="comment"
+                                placeholder="What's on your mind, Jessica?"></textarea>
+                        </div>
+                    </div>
+
+                </article>
+
                 <article class="published-post">
-                    <section class="user-block">
+                    <div class="user-block">
                         <img src="assets/icons/profilepic.svg" alt="Profile Picture" class="profilepic">
                         <div class="info">
                             <h1 class="name main-text">Jasmine Rose</h1>
                             <h2 class="time">40m ago</h2>
                         </div>
                         <img src="assets/icons/options.svg" alt="Options button" class="options">
-                    </section>
+                    </div>
 
-                    <section class="user-message">
+                    <div class="user-message">
                         <p class="msg">Priscilla and I are excited to share that the Chan Zuckerberg Initiative is
                             making major new investments to support criminal justice reform and immigration reform at a
                             critical moment for change nationwide.
@@ -151,9 +167,9 @@
                             with an initial investment of $350 million over the next five years to support a broader
                             community of lea… <span class="more main-text">See More</span>
                         </p>
-                    </section>
+                    </div>
 
-                    <section class="user-actions">
+                    <div class="user-actions">
 
                         <button class="btn-action">
                             <img src="assets/icons/like-btn.svg" alt="Like Icon">
@@ -170,7 +186,7 @@
                             <span class="txt">Share</span>
                         </button>
 
-                    </section>
+                    </div>
 
                 </article>
             </section>
