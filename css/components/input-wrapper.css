@@ -1,6 +1,8 @@
 .input-wrapper {
     display: flex;
     align-items: center;
+    position: relative;
+    padding-bottom: 25px;
 }
 
 .input-wrapper > .useravatar > img {
@@ -27,4 +29,13 @@
 .input-wrapper .textarea::placeholder {
     color: var(--gray);
     opacity: 1;
+}
+
+.input-wrapper::after {
+    content: '';
+    height: 1px;
+    background-color: var(--gray);
+    width: 100%;
+    position: absolute;
+    bottom: 0;
 }
