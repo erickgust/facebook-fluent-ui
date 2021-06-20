@@ -15,3 +15,8 @@
 .btn-action:hover {
     opacity: .75;
 }
+
+
+.btn-action .txt.-bold {
+    font-weight: 600;
+}
