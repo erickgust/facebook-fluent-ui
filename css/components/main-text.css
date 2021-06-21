@@ -6,3 +6,9 @@
 .main-text.-sidebar {
     margin-bottom: 1.25rem;
 }
+
+.main-text.-story {
+    color: var(--white);
+    bottom: 0;
+    position: absolute;
+}
