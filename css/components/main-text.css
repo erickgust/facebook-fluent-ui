@@ -12,3 +12,7 @@
     bottom: 0;
     position: absolute;
 }
+
+.main-text.-new-story {
+    color: var(--gray);
+}
