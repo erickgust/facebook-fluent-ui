@@ -18,6 +18,35 @@
     border: 3px solid var(--blue);
 }
 
+.main-story.-new {
+    background-color: var(--white);
+}
+
 .main-story.-first {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/icons/--bg-1.png);
+}
+
+.main-story.-second {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/icons/--bg-2.png);
+}
+
+.main-story.-third {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/icons/--bg-3.png);
+}
+
+.main-story.-fourth {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/icons/--bg-4.png);
+}
+
+.main-story.-new > .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-story.-new .addnew {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 10px;
 }
