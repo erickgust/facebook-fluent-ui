@@ -1,5 +1,27 @@
 .stories-wrapper {
     margin-bottom: 40px;
     display: flex;
+    position: relative;
+}
+
+.stories-wrapper > div {
+    display: inherit;
+    width: 100%;
     justify-content: space-between;
+}
+
+.stories-wrapper .arrow {
+    position: absolute;
+    background-color: transparent;
+    cursor: pointer;
+    right: 0;
+    transform: translateX(50%);
+    bottom: 35%;
+}
+
+.stories-wrapper .arrow > img {
+    padding: 20px;
+    border-radius: 50%;
+    background-color: var(--white);
+    box-shadow: 0px 4.8px 14.4px rgba(0, 0, 0, 0.18), 0px 25.6px 57.6px rgba(0, 0, 0, 0.22);
 }
