@@ -7,9 +7,9 @@
 }
 
 .btn-action .txt {
-    font: 400 18px "Poppins", sans-serif;
+    font: 400 1.125rem "Poppins", sans-serif;
     color: var(--gray);
-    padding-left: 15px;
+    padding-left: 1rem;
 }
 
 .btn-action:hover {

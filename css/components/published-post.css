@@ -2,8 +2,8 @@
     position: relative;
     background-color: var(--white);
     width: 100%;
-    padding: 20px;
+    padding: 1.25rem;
     border-radius: 10px;
-    box-shadow: 0px 4.8px 14.4px rgba(0, 0, 0, 0.18), 0px 25.6px 57.6px rgba(0, 0, 0, 0.22);
-    margin-bottom: 30px;
+    box-shadow: 0px .3rem .9rem rgba(0, 0, 0, 0.18), 0px 1.6rem 3.6rem rgba(0, 0, 0, 0.22);
+    margin-bottom: 1.875rem;
 }

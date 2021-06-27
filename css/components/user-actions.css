@@ -1,5 +1,5 @@
 .user-actions {
     display: flex;
     justify-content: space-around;
-    padding-top: 20px;
+    padding-top: 1.25rem;
 }
