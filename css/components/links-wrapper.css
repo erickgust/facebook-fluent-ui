@@ -1,0 +1,22 @@
+.navigation {
+    max-width: 35rem;
+    width: 100%;
+}
+
+.links-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links-wrapper > li > a {
+    display: block;
+    padding: .5rem 1rem;
+    box-shadow: 0 2px #FFF;
+    transition: all 250ms;
+}
+
+.links-wrapper > li > a:hover {
+    filter: brightness(.8);
+    box-shadow: 0 2px var(--gray);
+}
+
