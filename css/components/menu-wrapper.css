@@ -1,7 +1,9 @@
 .menu-wrapper {
     display: inherit;
+    gap: 2.1875rem;
 }
 
-.menu-wrapper .menu:not(:last-child) {
-    margin-right: 2.1875rem;
+.menu-wrapper .menu {
+    background: transparent;
+    cursor: pointer;
 }
