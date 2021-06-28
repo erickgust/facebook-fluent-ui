@@ -9,4 +9,5 @@
 .main-header .logosearch {
     display: flex;
     gap: 1.5625rem;
+    align-items: center;
 }
