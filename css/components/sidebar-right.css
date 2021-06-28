@@ -77,12 +77,8 @@
     padding: 0 1rem;
 }
 
-.sidebar-right .contacts-wrapper::after {
-    position: absolute;
-    content: '';
-    width: calc(100% - 3.75rem);
-    height: 1px;
-    background-color: var(--gray);
+.sidebar-right .contacts-wrapper {
+    border-bottom: 1px solid var(--gray);
 }
 
 .sidebar-right .groups-wrapper {
