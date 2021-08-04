@@ -2,12 +2,14 @@
     margin-bottom: 2.5rem;
     display: flex;
     position: relative;
+    align-items: center;
 }
 
-.stories-wrapper > div {
+.stories-wrapper > .items {
     display: inherit;
     width: 100%;
-    justify-content: space-between;
+    gap: 12px;
+    justify-content: center;
 }
 
 .stories-wrapper .arrow {
@@ -15,8 +17,6 @@
     background-color: transparent;
     cursor: pointer;
     right: 0;
-    transform: translateX(50%);
-    bottom: 35%;
 }
 
 .stories-wrapper .arrow > img {
