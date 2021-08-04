@@ -1,13 +1,8 @@
 .sidebar-left {
-    position: relative;
     width: 100%;
     max-width: 20.25rem;
     padding-left: 1.875rem;
     padding-top: 1.875rem;
-}
-
-.sidebar-left .items {
-    margin-bottom: 2.1875rem;
 }
 
 .sidebar-left a {
@@ -15,38 +10,33 @@
     align-items: center;
 }
 
-.sidebar-left img {
+.sidebar-left .icon {
+    width: 40px;
+    height: 40px;
     margin-right: 1.25rem;
-}
-
-.sidebar-left .items.-user img {
-    margin-right: .9375rem;
-}
-
-.sidebar-left .items.-second img {
-    margin-right: 1rem;
-}
-
-.sidebar-left .items.-saved img {
-    margin-right: 1.625rem;
+    text-align: center;
 }
 
 .sidebar-left .items:last-child img {
-    position: relative;
-    left: -1px;
     height: 35px;
 }
 
-.sidebar-left .sidebar-wrapper::after {
-    position: absolute;
-    content: '';
-    width: calc(100% - 3.75rem);
-    height: 1px;
-    background-color: var(--gray);
+.sidebar-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1.875rem;
+}
+
+.sidebar-left hr {
+    border-color: var(--gray);
+    border-style: solid;
+    opacity: 0.6;
+    margin-top: 1.875rem;
+    margin-bottom: 1.875rem;
+    width: calc(100% - 1.875rem);
 }
 
 .sidebar-left .copyright {
-    padding-top: 1.875rem;
     width: 100%;
     max-width: 11.875rem;
     font: 400 .8125rem "Poppins", sans-serif;
