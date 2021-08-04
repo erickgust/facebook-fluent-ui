@@ -1,4 +1,6 @@
 .main-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: 20.24rem 1fr 324px;
+    grid-template-areas: "sidebar-left home-page sidebar-right";
     background-color: #dddddd;
 }
